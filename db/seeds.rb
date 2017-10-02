@@ -6,6 +6,29 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Weather.create(city: "New York", city_id: )
+Weather.create(city: "Los Angeles", city_id: )
+Weather.create(city: "Chicago", city_id: )
+Weather.create(city: "Houston", city_id: )
+Weather.create(city: "Phoenix", city_id: )
+Weather.create(city: "Boston", city_id: )
+Weather.create(city: "Seattle", city_id: )
+Weather.create(city: "Las Vegas", city_id: )
+Weather.create(city: "Atlanta", city_id: )
+Weather.create(city: "Miami", city_id: )
+Weather.create(city: "New Orleans", city_id: )
+Weather.create(city: "Honolulu", city_id: )
+Weather.create(city: "Buffalo", city_id: )
+Weather.create(city: "Boise", city_id: )
+Weather.create(city: "Carmel", city_id: )
+Weather.create(city: "Pittsburgh", city_id: )
+Weather.create(city: "St. Louis", city_id: )
+Weather.create(city: "Wichita", city_id: )
+Weather.create(city: "San Diego", city_id: )
+Weather.create(city: "Nashville", city_id: )
+Weather.create(city: "San Francisco", city_id: )
+Weather.create(city: "Portland", city_id: )
+
 
 Note.create([
   { body: 'The frontend (Vanilla JS) and backend (Rails API) will reside in two separate repos'},
