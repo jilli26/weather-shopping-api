@@ -6,29 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Weather.create(city: "New York", city_id: )
-Weather.create(city: "Los Angeles", city_id: )
-Weather.create(city: "Chicago", city_id: )
-Weather.create(city: "Houston", city_id: )
-Weather.create(city: "Phoenix", city_id: )
-Weather.create(city: "Boston", city_id: )
-Weather.create(city: "Seattle", city_id: )
-Weather.create(city: "Las Vegas", city_id: )
-Weather.create(city: "Atlanta", city_id: )
-Weather.create(city: "Miami", city_id: )
-Weather.create(city: "New Orleans", city_id: )
-Weather.create(city: "Honolulu", city_id: )
-Weather.create(city: "Buffalo", city_id: )
-Weather.create(city: "Boise", city_id: )
-Weather.create(city: "Carmel", city_id: )
-Weather.create(city: "Pittsburgh", city_id: )
-Weather.create(city: "St. Louis", city_id: )
-Weather.create(city: "Wichita", city_id: )
-Weather.create(city: "San Diego", city_id: )
-Weather.create(city: "Nashville", city_id: )
-Weather.create(city: "San Francisco", city_id: )
-Weather.create(city: "Portland", city_id: )
 
+Weather.create
+Item.create(name: "suede jacket", brand: "blanknyc", category: "jacket", temp_start: 50, temp_end: 70, url: "https://www.bloomingdales.com/shop/product/blanknyc-suede-moto-jacket-100-exclusive?ID=2667506&CategoryID=1001521#fn=ppp%3Dundefined%26sp%3D1%26rId%3D121%26spc%3D1289%26spp%3D1%26pn%3D1%7C15%7C1%7C1289%26rsid%3Dundefined", image: "suede_jacket.jpeg", weather_id: 1)
 
 Note.create([
   { body: 'The frontend (Vanilla JS) and backend (Rails API) will reside in two separate repos'},
