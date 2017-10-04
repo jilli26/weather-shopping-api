@@ -8,7 +8,6 @@ class CreateItems < ActiveRecord::Migration[5.1]
       t.integer :temp_end
       t.string :url
       t.string :image
-      t.integer :weather_id
       t.timestamps
     end
   end

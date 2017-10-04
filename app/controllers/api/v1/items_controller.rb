@@ -6,9 +6,11 @@ class Api::V1::ItemsController < ApplicationController
   end
 
   def index
-    @animals = Animal.all
-    render json: @animals, status: 200
+    @items = Item.all
+    render json: @items, status: 200
   end
+
+  #/items/:temp
 
   # def create
   #   @species = Species.find_or_create_by(name: params[:species])

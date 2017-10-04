@@ -6,18 +6,16 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Item.create(name: "suede jacket", brand: "blanknyc", category: "jacket", temp_start: 50, temp_end: 70, url: "https://www.bloomingdales.com/shop/product/blanknyc-suede-moto-jacket-100-exclusive?ID=2667506&CategoryID=1001521#fn=ppp%3Dundefined%26sp%3D1%26rId%3D121%26spc%3D1289%26spp%3D1%26pn%3D1%7C15%7C1%7C1289%26rsid%3Dundefined", image: "https://i.imgur.com/XamE3uR.jpg")
 
-Weather.create
-Item.create(name: "suede jacket", brand: "blanknyc", category: "jacket", temp_start: 50, temp_end: 70, url: "https://www.bloomingdales.com/shop/product/blanknyc-suede-moto-jacket-100-exclusive?ID=2667506&CategoryID=1001521#fn=ppp%3Dundefined%26sp%3D1%26rId%3D121%26spc%3D1289%26spp%3D1%26pn%3D1%7C15%7C1%7C1289%26rsid%3Dundefined", image: "suede_jacket.jpeg", weather_id: 1)
-
-Note.create([
-  { body: 'The frontend (Vanilla JS) and backend (Rails API) will reside in two separate repos'},
-  { body: 'Install and configure Postgresql <a target="_blank" href="https://postgresapp.com/">Postgresapp</a>.' },
-  { body: 'Remember to use "--database=postgresql" when generating your Rails application to use Postgresql vs SqlLite.' },
-  { body: 'Create your Rails application as an <a target="_blank" href="http://guides.rubyonrails.org/api_app.html">API</a>.' },
-  { body: 'Add support for <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS">cross-origin resource sharing</a>, using <a target="_blank" href=" https://github.com/cyu/rack-cors">rack-cors</a>. See this <a target="_blank" href="https://github.com/learn-co-curriculum/js-project-week-setup/commit/8272dbfcde33503adbb22bb0dbc731233527fad6">commit</a> as a reference.' },
-  { body: 'Design your data model and define the structure of your JSON data.' },
-  { body: 'Remember to namespace your <a target="_blank" href="http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing">routes and controllers</a>.' },
-  { body: 'Learn <a href="https://chriskottom.com/blog/2017/04/versioning-a-rails-api"/>why</a> version an API'},
-  { body: 'When lost take a walk, then befriend <a target="_blank" href="https://developer.mozilla.org/en-US/">MDN</a> and <a target="_blank" href="http://api.rubyonrails.org/">api.rubyonrails.org</a>.' }
-  ])
+# Note.create([
+#   { body: 'The frontend (Vanilla JS) and backend (Rails API) will reside in two separate repos'},
+#   { body: 'Install and configure Postgresql <a target="_blank" href="https://postgresapp.com/">Postgresapp</a>.' },
+#   { body: 'Remember to use "--database=postgresql" when generating your Rails application to use Postgresql vs SqlLite.' },
+#   { body: 'Create your Rails application as an <a target="_blank" href="http://guides.rubyonrails.org/api_app.html">API</a>.' },
+#   { body: 'Add support for <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS">cross-origin resource sharing</a>, using <a target="_blank" href=" https://github.com/cyu/rack-cors">rack-cors</a>. See this <a target="_blank" href="https://github.com/learn-co-curriculum/js-project-week-setup/commit/8272dbfcde33503adbb22bb0dbc731233527fad6">commit</a> as a reference.' },
+#   { body: 'Design your data model and define the structure of your JSON data.' },
+#   { body: 'Remember to namespace your <a target="_blank" href="http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing">routes and controllers</a>.' },
+#   { body: 'Learn <a href="https://chriskottom.com/blog/2017/04/versioning-a-rails-api"/>why</a> version an API'},
+#   { body: 'When lost take a walk, then befriend <a target="_blank" href="https://developer.mozilla.org/en-US/">MDN</a> and <a target="_blank" href="http://api.rubyonrails.org/">api.rubyonrails.org</a>.' }
+#   ])
