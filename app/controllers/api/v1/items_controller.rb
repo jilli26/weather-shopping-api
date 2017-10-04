@@ -10,6 +10,10 @@ class Api::V1::ItemsController < ApplicationController
     render json: @items, status: 200
   end
 
+  # def return_clothing
+  #
+  # end
+
   #/items/:temp
 
   # def create
