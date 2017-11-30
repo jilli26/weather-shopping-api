@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Item.create(name: "suede jacket", brand: "blanknyc", category: "jacket", temp_start: 50, temp_end: 70, url: "https://www.bloomingdales.com/shop/product/blanknyc-suede-moto-jacket-100-exclusive?ID=2667506&CategoryID=1001521#fn=ppp%3Dundefined%26sp%3D1%26rId%3D121%26spc%3D1289%26spp%3D1%26pn%3D1%7C15%7C1%7C1289%26rsid%3Dundefined", image: "https://i.imgur.com/XamE3uR.jpg")
+Item.create(name: "fake jacket", brand: "blanknyc", category: "jacket", temp_start: 10, temp_end: 40, url: "https://www.bloomingdales.com/shop/product/blanknyc-suede-moto-jacket-100-exclusive?ID=2667506&CategoryID=1001521#fn=ppp%3Dundefined%26sp%3D1%26rId%3D121%26spc%3D1289%26spp%3D1%26pn%3D1%7C15%7C1%7C1289%26rsid%3Dundefined", image: "https://i.imgur.com/XamE3uR.jpg")
+
 
 # Note.create([
 #   { body: 'The frontend (Vanilla JS) and backend (Rails API) will reside in two separate repos'},

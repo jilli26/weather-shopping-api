@@ -9,7 +9,8 @@ class Item < ApplicationRecord
   end
 
   def range
-    (temp_start..temp_end)
+    (temp_start..temp_end).to_a
   end
-  
+
+
 end
